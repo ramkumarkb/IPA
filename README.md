@@ -26,6 +26,9 @@ The main source of inspiration comes from the tool developed by Zynamics called 
 * Implement a lighter analysis that attempts to salvage usable information from a corrupted or partially damaged PDF file, even when traditional parsing methods fail.
 * Does not require any additional software, libraries, or external services to function thanks to pdf-rs and Rust compatibility.
 
+## How does this compare to `qpdf`
+To add more details on on IPA compares to [`qpdf`](https://qpdf.readthedocs.io/en/stable/index.html)
+
 ## Installation
 
 The tool can be compiled with Rust and cargo. No dependencies are required apart from Rust, and the crates pulled.
